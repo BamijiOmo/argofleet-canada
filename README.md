@@ -72,9 +72,3 @@ GitHub & Registry
 GitHub Repository: github.com/BamijiOmo/argofleet-canada
 
 Docker Hub Image: bamijiomo/auth-service
-
-🧭 Author
-
-Bami Omo
-DevOps Engineer
-📫 github.com/BamijiOmo
