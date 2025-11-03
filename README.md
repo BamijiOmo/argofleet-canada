@@ -72,3 +72,16 @@ GitHub & Registry
 GitHub Repository: github.com/BamijiOmo/argofleet-canada
 
 Docker Hub Image: bamijiomo/auth-service
+
+### 🧾 payment-service
+
+Node.js microservice for handling payment logic. Deployed via GitOps using Docker, Kubernetes, and ArgoCD.
+
+- Docker Image: `bamijiomo/payment-service:latest`
+- Kubernetes Manifests: `k8s/base/payment-service`
+- ArgoCD App Config: `argocd/app-payment-service.yaml`
+- Namespace: `argofleet`
+
+```bash
+curl http://payment-service:3001
+
