@@ -43,7 +43,9 @@ argofleet-canada/
 │   └── app-auth-service.yaml      # ArgoCD GitOps config
 
 🛠️ Deployment Workflow
+
 1️⃣ Build & Push Docker Image
+
 docker build -t auth-service .
 docker tag auth-service bamijiomo/auth-service:latest
 docker push bamijiomo/auth-service:latest
@@ -64,6 +66,7 @@ Auto-sync enabled with namespace creation
 Continuous reconciliation for drift detection
 
 4️⃣ Validation Commands
+
 kubectl get pods -n argofleet
 kubectl get svc -n argofleet
 
